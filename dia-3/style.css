@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 500 30px Teko;
+
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    background: #1d3be9;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+}
+
+.wrapper {
+    height: 100%;
+    width: 50%;
+    background: #FF4500;
+    overflow:hidden;
+    color: cornsilk;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #FFD700;
+}
+
+.sliding {
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 12em;
+    line-height: 280px;
+    overflow: hidden;
+    font-family: Teko;
+    animation: animate 8s linear infinite;
+}
+
+
+@keyframes animate 
+{
+    0%
+    {
+        transform: translate(0, -50%);
+    }
+    100%
+    {
+        transform: translate(-50%, -50%);
+    }
+}
