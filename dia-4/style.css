@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Share', cursive;
+}
+
+body {
+    background: #012929;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    font: 700 30px Share;
+    color: whitesmoke;
+    background: #303a3a;
+    width: 50%;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+    
+}
+
+a:hover
+{
+    color: rgb(69, 248, 53);
+    transition: 5s infinite;
+        
+}
+
+.btn {
+    width: 400px;
+    height: 100px;
+    background: none;
+    border: 6px solid deeppink;
+    color: #f7f4f6;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 40px;
+    position: relative;
+}
+
+.btn:hover {
+    border: 6px solid rgb(69, 248, 53);
+}
+
+.btn::before, .btn::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 6px;
+    background: #012929;
+    transform: skewX(50deg);
+    transition: .4s linear;
+}
+
+.btn::before {
+    top: -5px;
+    left: 10%;
+}
+
+.btn::after{
+    bottom: -6px;
+    right: 10%;
+}
+
+.btn:hover::before {
+    left: 80%;
+}
+
+.btn:hover::after{
+    right: 80%;
+}
