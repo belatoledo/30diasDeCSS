@@ -8,7 +8,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font: 500 30px Teko;
+    font: 500 40px Teko;
 
 }
 
@@ -37,11 +37,11 @@ section {
     position: absolute;
     top: 50%;
     white-space: nowrap;
-    font-size: 12em;
+    font-size: 9em;
     line-height: 280px;
     overflow: hidden;
     font-family: Teko;
-    animation: animate 8s linear infinite;
+    animation: animate 5s linear infinite;
 }
 
 
