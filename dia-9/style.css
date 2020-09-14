@@ -1,0 +1,110 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4eb99f;
+    font-family: 'Heebo', sans-serif;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    position: absolute;
+}
+
+
+.pendulo {
+    display: flex;
+    border-top: 10px solid rgb(127, 0, 177);
+}
+
+.pendulo span {
+    display: block;
+    width: 3px;
+    height: 300px;
+    background-color: rgb(247, 231, 14); 
+    margin: 0 29px;
+    position: relative;
+    transform-origin: top;
+}
+
+.pendulo span:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: mediumvioletred;
+    border: 2px solid rgb(231, 217, 92);
+    transform: translateX(-50%);
+}
+
+.pendulo span:first-child {
+    animation: left-arm 2s ease-in infinite;
+}
+
+.pendulo span:last-child {
+    animation: right-arm 2s ease-in infinite 1s;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 102px;
+    left: -2px;
+    height: 300px;
+    color: mintcream;
+}
+
+@keyframes left-arm 
+
+    {
+        0% {transform: rotate(0deg); 
+            box-shadow: 0 0 0 0 rgba(55, 209, 201, 0.4), 0 0 0 0 rgba(24, 153, 104, 0.4);
+    }
+        25% {transform: rotate(60deg);
+            box-shadow: 0 0 0 30px rgba(55, 209, 201, 0), 0 0 0 0 rgba(55, 209, 201, 0.4);
+        }
+        50% {transform: rotate(0deg);
+            box-shadow: 0 0 0 30px rgba(55, 209, 201, 0), 0 0 0 30px rgba(55, 209, 201, 0);
+        }
+        100% {transform: rotate(0deg);
+            box-shadow: 0 0 0 0 rgba(55, 209, 201, 0), 0 0 0 30px rgba(55, 209, 201, 0);
+        }
+    }
+
+@keyframes right-arm
+ 
+{
+    0% 
+    {
+        transform: rotate(0deg); 
+        box-shadow: 0 0 0 0 rgba(55, 209, 201, 0.4), 0 0 0 0 rgba(24, 153, 104, 0.4);
+    }
+    25% 
+    {
+        transform: rotate(-60deg);
+        box-shadow: 0 0 0 30px rgba(55, 209, 201, 0), 0 0 0 0 rgba(55, 209, 201, 0.4);
+    }
+    50% 
+    {
+        transform: rotate(0deg);
+        box-shadow: 0 0 0 30px rgba(55, 209, 201, 0), 0 0 0 30px rgba(55, 209, 201, 0);
+    }
+    100% 
+    {
+        transform: rotate(0deg);
+        box-shadow: 0 0 0 0 rgba(55, 209, 201, 0), 0 0 0 30px rgba(55, 209, 201, 0);
+    }
+}
+
+
+
+
