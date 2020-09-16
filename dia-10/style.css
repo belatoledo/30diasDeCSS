@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 207, 252);
+}
+
+h1 {
+    color: #000;
+    font-size: 60px;
+    font-family: 'Rubik', sans-serif;
+    overflow-wrap: normal;
+}
+
+h2 {
+    position: absolute;
+    top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: floralwhite;
+    background-color: rgba(255, 105, 180, 0.548);
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+    line-height: 25px;
+}
+
+span:before {
+    content: '';
+    animation: word-swith 3s ease-out infinite;
+}
+
+@keyframes word-swith
+
+{
+    0% {content: '💸';}
+
+    50% {content: '💰';}
+
+    100% {content: '💵';}
+}
