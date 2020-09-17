@@ -11,6 +11,7 @@ h1 {
     font-size: 60px;
     font-family: 'Rubik', sans-serif;
     overflow-wrap: normal;
+    text-align: center;
 }
 
 h2 {
@@ -27,7 +28,7 @@ h2 {
 
 span:before {
     content: '';
-    animation: word-swith 3s ease-out infinite;
+    animation: word-swith 3s infinite;
 }
 
 @keyframes word-swith
