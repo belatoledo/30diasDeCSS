@@ -39,7 +39,7 @@ h2 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: mediumvioletred;
+    background-color: rgb(231, 31, 115);
     border: 2px solid rgb(231, 217, 92);
     transform: translateX(-50%);
 }
