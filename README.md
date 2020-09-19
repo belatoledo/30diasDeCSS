@@ -11,12 +11,15 @@ Bora participar? Fui inspirada pela [@MilenaCarecho](https://github.com/MilenaCa
 
 ## 📖 Regras gerais
 
-* Realizar um projeto por dia
+* Realizar um projeto por dia 
 * Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
 * O projeto deve ser concluído até 23:59
 
-## 🌼 Regras pra mim 
+## 🌼 Regras pra mim (que foram alteradas para caber na minha rotina a partir do desafio 8!)
 
-* Se eu não concluir o projeto do dia fico sem minhas leituras (sou viciada hahah) por SETE dias!
-* Vou criar um artigo tutorial no [medium](https://medium.com/@it.amancio) para todos os projetos.
-* Ao fim dos 30 dias devo criar uma página que pode ser acessada para expor todos os projetos.
+* Realizar um projeto por dia de segunda a sexta (aos fins de semana fico sem meu setup, rs)  
+* Para cada dia sem postar um projeto, ler a documentação de alguma propriedade de CSS que tenha no projeto atrasado  
+* Criar um artigo tutorial no [medium](https://medium.com/@it.amancio) para todos os projetos
+* Ao fim dos 30 dias: criar uma página que pode ser acessada para expor todos os projetos
+
+E para cumprir a regra anterior de 7 dias sem leituras por dia de atraso, comunico que serão 49 dias sem ler (e declaro que essa regra está extinta! 😅) 
