@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Jura', sans-serif;
+    background-color: #fcb0d0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Grandstander', cursive;
+    font-size: 120px;
+    color: #F1FFE7;
+    text-transform: uppercase;
+    position: relative;
+}
+
+h1:before {
+    content: '#USEMÁSCARA!';
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    color: #44CF6C;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+
+h1:hover::before {
+    width: 100%;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    font-size: 28px;
+}
