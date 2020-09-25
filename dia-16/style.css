@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+h2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    color: plum;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    border: 3px solid white;
+    padding: 40px 80px;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+a:before {
+    content: '👻 BoOooOo! 👻';
+    color: rgb(226, 210, 247);
+    background-color: #71089b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+
+    transform:  translateY(-100%);
+    transition:  all .5s;
+}
+
+a:hover::before {
+    transform: translateY(0);
+}
