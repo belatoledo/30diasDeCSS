@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #222;
+    font-family: 'Montserrat',sans-serif;
 }
 
 h2 {
@@ -11,7 +12,6 @@ h2 {
     display: flex;
     justify-content: center;
     top: 70px;
-    font-family: 'Montserrat',sans-serif;
     font-size: 20px;
     color: plum;
 }
@@ -19,7 +19,6 @@ h2 {
 a {
     text-decoration: none;
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     border: 3px solid white;
     padding: 40px 80px;
