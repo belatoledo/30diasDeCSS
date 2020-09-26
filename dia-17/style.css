@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7364e;
+    font-family: 'Jura', sans-serif;
+    perspective: 200px;
+}
+
+h2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50px;
+    color: #000;
+}
+
+.loading {
+    width: 150px;
+    height: 150px;
+    background: url(/dia-17/image-1.png) no-repeat center;
+    background-size: 150px;
+    background-color: white;
+    border-radius: 12px;
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading 
+{
+    0% {transform: rotateX(0deg) rotateY(0deg);}
+
+    50% {transform: rotateX(0deg) rotateY(180deg);}
+
+    100% {transform:  rotateX(180deg) rotateY(180deg);}
+}
