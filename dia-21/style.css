@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(236, 235, 216);
+}
+
+h2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 40px;
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+    color: rgb(46, 19, 1);
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-bottom: solid 10px rgb(245, 232, 47);
+}
+
+ul li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    margin: 20px 10px ;
+    border-radius: 50%;
+    animation: jumping 1s linear infinite;
+}
+
+@keyframes jumping 
+{
+    0% {transform: translateY(0); filter: hue-rotate(0);}
+    50% {transform: translateY(-150px); opacity: 20%;}
+    100%{transform: translateY(0);}
+}
+
+ul li:nth-child(1)
+{
+animation-delay: 0.45s;
+background-color: deeppink;
+filter: hue-rotate(90deg);
+}
+
+ul li:nth-child(2)
+{
+animation-delay: 0.6s;
+background-color: deepskyblue;
+filter: hue-rotate(120deg);
+}
+
+ul li:nth-child(3)
+{
+animation-delay: 0.3s;
+background-color: greenyellow;
+filter: hue-rotate(150deg);
+}
+
+ul li:nth-child(4)
+{
+animation-delay: 0;
+background-color: rgb(127, 33, 194);
+filter: hue-rotate(300deg);
+}
+
+ul li:nth-child(5)
+{
+animation-delay: 0.1s;
+background-color: orangered;
+filter: hue-rotate(360deg);
+}
+
