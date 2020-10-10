@@ -1,0 +1,78 @@
+body {
+    margin: 60px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+}
+
+.line {
+    width: 300px;
+    border-bottom: 4px solid rgb(250, 248, 249);
+    position: relative;
+    animation: animateline 2s linear infinite;
+}
+
+.hexagon {
+    position: absolute;
+    left: 0;
+    bottom: 14px;
+    width: 50px;
+    height: 30px;
+    background-color: steelblue;
+    animation: animatehexagon 2s linear infinite;
+}
+
+.hexagon:before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: steelblue;
+    transform: rotate(60deg);
+}
+
+.hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: steelblue;
+    transform: rotate(-60deg);
+}
+
+@keyframes animatehexagon 
+{
+    0% {left: 0;}
+    50% {left: calc(100% - 50px);
+    transform: rotate(480deg);}
+    100% {left: 0;}
+}
+
+@keyframes animateline 
+{
+    0% {transform: rotate(30deg);}
+    25% {transform: rotate(0deg);}
+    50% {transform: rotate(-30deg);}
+    75% {transform: rotate(0deg);}
+    100% {transform: rotate(30deg);
+}
+
