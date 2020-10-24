@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+
+    animation: bgchange 12s infinite;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+}
+
+@keyframes bgchange {
+    0%  {background: linear-gradient(329.54deg, #FFF 17%, #999999 83%);}
+    20% {background: linear-gradient(389.54deg, #1ad1ff 17%, #1a53ff 83%);}
+    30% {background: linear-gradient(369.54deg, #1ad1ff 17%, #9966ff 83%);} 
+    30% {background: linear-gradient(349.54deg, #9966ff 17%, #ff66b3 83%);}
+    40% {background: linear-gradient(359.54deg, #ffa4d1 17%, #ff6666 83%);}
+    50% {background: linear-gradient(339.54deg, #fa5151 17%, #ff751a 83%);}
+    60% {background: linear-gradient(319.54deg, #ff751a 17%, #fafa2b 83%);}
+    70% {background: linear-gradient(309.54deg, #fafa2b 17%, #99ff33 83%);}
+    80% {background: linear-gradient(379.54deg, #99ff33 17%, #40d640 83%);}
+    90% {background: linear-gradient(349.54deg, #40d640 17%, #1affb2 83%);}
+    100% {background: linear-gradient(349.54deg, #FFF 12%, #333 88%);}
+}
