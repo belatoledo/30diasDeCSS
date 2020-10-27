@@ -5,7 +5,7 @@ body {
     align-items: center;
     font-family: 'Staatliches', cursive;
 
-    animation: bgchange 12s infinite;
+    animation: bgchange 11s infinite ease-in-out;
 }
 
 h1 {
