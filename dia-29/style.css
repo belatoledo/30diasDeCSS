@@ -26,11 +26,14 @@ body {
     color:  #2d3c83;
     margin: 0 10px;
     line-height: 70px;
+    
+    transition: all 0.5s;    
 }
 
 a:hover {
     color: #3a64b3;
     font-size: 18px;
+    
 }
 
 span {
