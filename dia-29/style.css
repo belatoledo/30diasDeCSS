@@ -1,0 +1,93 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.nav {
+    margin-top: 20px;
+    height: 70px;
+    line-height: 70px;
+    border-top: 1px solid #b6bccfef;
+    border-bottom: 1px solid #b6bccfef;
+    background-color: aliceblue;  
+    text-align: right;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color:  #2d3c83;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+a:hover {
+    color: #3a64b3;
+    font-size: 18px;
+}
+
+span {
+    font-weight: 700;
+    color: goldenrod;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+.nav .title-challenge h2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color:  #2d3c83;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .title-challenge h2 {
+        margin: 0px 0 60px 0;
+        line-height: 20px;
+        text-align: center;
+    }
+   
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #b6bccfef;
+        margin: 0;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
