@@ -19,5 +19,5 @@ Bora participar? Fui inspirada pela [@MilenaCarecho](https://github.com/MilenaCa
 
 * Realizar um projeto por dia de segunda a sexta (aos fins de semana fico sem meu setup, rs)  
 * Para cada dia sem postar um projeto, ler a documentação de alguma propriedade de CSS que tenha no projeto atrasado  
-* Criar um artigo tutorial no [medium](https://medium.com/@it.amancio) para os projetos que mais gostei de fazer
+* Criar um artigo tutorial no [medium](https://medium.com/@it.amancio) para os 05 projetos que mais gostei de fazer
 * Ao fim dos 30 dias: criar uma página que pode ser acessada para expor todos os projetos
